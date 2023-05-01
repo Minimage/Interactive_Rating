@@ -1,6 +1,18 @@
 .App {
-  text-align: center;
+  font-family: sans-serif;
+  /* text-align: center; */
+  color: white;
 }
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+p {
+  /* color: blue; */
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -32,7 +44,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.show {
+  visibility: show;
+  display: block
 }
